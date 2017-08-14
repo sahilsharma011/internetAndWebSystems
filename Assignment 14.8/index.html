@@ -1,7 +1,73 @@
 <html>
+
 <head>
   <title>
     Magazine
-  </title>  
+  </title>
+  <style>
+    header {
+      font-size: 27px;
+      text-align: center;
+    }
+
+    .card {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      border: groove;
+      margin: 15px 20px;
+      padding: 10px;
+    }
+
+    .left {
+      position: absolute;
+      width: 75%;
+      border-right: solid;
+    }
+
+    .right {
+      position: absolute;
+      width: 25%;
+      left: 75%;
+    }
+  </style>
 </head>
+
+<body>
+  <header>
+    Magazine
+  </header>
+  <hr>
+  <div class="left">
+    <div class="section">
+      <header>National News</header>
+      <hr>
+      <div class="card">Article 1</div>
+      <div class="card">Article 2</div>
+      <hr>
+    </div>
+    <div class="section">
+      <header>International News</header>
+      <hr>
+      <div class="card">Article 1</div>
+      <div class="card">Article 2</div>
+      <hr>
+    </div>
+    <div class="section">
+      <header>Entertainment</header>
+      <hr>
+      <div class="card">Movies</div>
+      <div class="card">Music</div>
+      <div class="card">Theatre</div>
+      <hr>
+    </div>
+  </div>
+  <div class="right">
+    <header>
+      Campaign
+    </header>
+    <hr>
+  </div>
+</body>
+
 </html>
