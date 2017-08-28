@@ -10,17 +10,14 @@
 <button class="button" onclick="triangle()" type="button">triangle</button>
 <button class="button" onclick="rectangle()" type="button">Rectangle</button>
 <br>
-<div id="area"></div>
+<section id="area"></section>
 
-<div id="Perimeter"></div>
+<section id="Perimeter"></section>
 <canvas id="myCanvas" width="500" height="200" style="border:1px solid #000000;"></canvas><br>
-
-<br>
-<br>
 </body>
 <script type="text/javascript">
     function circle(){
-        var radius = prompt("Enter radius of circle", "3");
+        var radius = parseFloat(prompt("Enter radius of circle", "3"));
         var c = document.getElementById("myCanvas");
         var ctx = c.getContext("2d");
         ctx.clearRect(0, 0, c.width, c.height);
@@ -32,7 +29,7 @@
     }
 
     function square() {
-        var side = prompt("Enter Side of Square", "3");
+        var side = parseFloat(prompt("Enter Side of Square", "3"));
         var c=document.getElementById("myCanvas");
         var ctx=c.getContext("2d");
         ctx.clearRect(0, 0, c.width, c.height);
@@ -44,9 +41,9 @@
     }
 
     function triangle() {
-        var base = prompt("Enter Base of triangle", "3");
-        var height = prompt("Enter Height of triangle", "3");
-        var side = prompt("Enter remaining side of triangle", "3");
+        var base = parseFloat(prompt("Enter Base of triangle", "3"));
+        var height = parseFloat(prompt("Enter Height of triangle", "3"));
+        var side = parseFloat(prompt("Enter remaining side of triangle", "3"));
         var c=document.getElementById("myCanvas");
         var ctx = c.getContext('2d');
         ctx.clearRect(0, 0, c.width, c.height);
@@ -63,8 +60,8 @@
     }
 
     function rectangle(){
-        var height = prompt("Enter Height of rectangle", "3");
-        var width = prompt("Enter Width of rectangle", "3");
+        var height = parseFloat(prompt("Enter Height of rectangle", "3"));
+        var width = parseFloat(prompt("Enter Width of rectangle", "3"));
         var c=document.getElementById("myCanvas");
         var ctx=c.getContext("2d");
         ctx.clearRect(0, 0, c.width, c.height);
