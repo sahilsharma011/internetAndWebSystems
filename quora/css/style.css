@@ -1,0 +1,332 @@
+/**
+ * Created by PhpStorm.
+ * User: sahilsharma
+ */
+@import "https://fonts.googleapis.com/css?family=Alegreya+Sans";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #f5f5f5;
+    color: #67727A;
+    font-family: 'Alegreya', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-size: 160%;
+    line-height: 155%;
+    padding: 5% 0;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    /* color: #f5f5f5; */
+    font-size: 120%;
+    line-height: 150%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+header {
+    /* background-color: #6991AC; */
+    background-color: #CB0F0F;
+    width: 100%;
+    height: 60px;
+}
+
+#header-logo a {
+    font-family: Baskerville;
+    font-size: 30px;
+    float: left;
+    padding-top: 1%;
+    padding-left: 2%;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Start navigation style */
+
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#search {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    float: right;
+    margin-left: 22rem;
+}
+
+#search i {
+    padding: 4px;
+    font-size: 1rem;
+}
+
+#search-bar {
+    padding: 0 0 0 0;
+    height: inherit;
+    border: none;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+#header-nav-bar {
+    width: 70%;
+    float: left;
+}
+
+#header-nav-bar ul {
+    padding-left: 5rem;
+}
+
+#header-nav-bar ul li {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 150%;
+    /* display: inline-block; */
+    float: left;
+    padding-left: 10px;
+}
+
+#header-nav-bar ul li a {
+    color: #f3f2f2;
+    text-decoration: none;
+}
+
+#header-nav-bar ul li a:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+
+/* End nav */
+
+
+/* Profile begins */
+
+#header-profile {
+    padding-top: 1.5rem;
+    padding-right: 10rem;
+    float: right;
+    font-size: 30px;
+}
+
+#header-profile:hover {
+    cursor: pointer;
+    color: #B3B3B3;
+}
+
+#profile-text {
+    font-style: unset;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 90%;
+    padding-left: 0.5rem;
+}
+
+
+/* End of profile */
+
+
+/* Left Nav Panel */
+
+#left-nav-bar {
+    float: left;
+    /* width: 12%;     */
+    width: 8em;
+    height: 800px;
+    min-width: auto;
+    background-color: #fafafa;
+    /* padding-top: 20px; */
+}
+
+#left-nav-bar ul li {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 120%;
+    padding: 5px 2px 5px 8px;
+    color: #800000
+}
+
+#left-nav-bar ul li a {
+    /* color: #f5f5f5; */
+    text-decoration: none;
+    color: #800000;
+
+}
+
+#left-nav-bar a:hover {
+  background-color: #800000;;
+  color: white;
+}
+
+
+}
+#left-nav-bar ul li:hover {
+    background-color: #800000;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* End of left nav panel */
+
+
+/* Main begins */
+
+main {
+    float: left;
+    width: 60%;
+    padding: 1rem;
+}
+
+.askedby-user {
+    padding: 0;
+    padding-right: 3rem;
+    float: right;
+}
+
+.askedby-user i {
+    padding-right: 0.5rem;
+}
+.askedby-user:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.answeredby-user {
+    padding: 0 3rem 3rem 0;
+    float: right;
+}
+
+.answeredby-user:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.answeredby-user i {
+    padding-right: 0.5rem;
+}
+
+
+#answer-section article {
+    background-color: #fafafa;
+    /* border: 1px solid #595959; */
+    border-radius: 2px;
+    /* box-shadow: 2px 2px 2px 2px #888888; */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    padding-bottom: 1rem;
+    
+    margin: 1rem;
+    margin-right: -3rem;
+}
+
+#answer-section article:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
+}
+
+#answer-section article h3 {
+    margin-left: 1rem;
+    margin-bottom: -2rem;
+}
+
+#answer-section article h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #6991AC;
+}
+
+#answer-section article p:hover {
+    cursor: pointer;
+}
+
+
+
+/* End of Main */
+
+
+/* Right panel */
+
+aside {
+    background-color: #fafafa;
+    float: right;
+    padding: 20px 0 0 1.5rem;
+    width: 20%;
+    height: 800px;
+}
+#map{
+    float: right;
+    width: 20%
+}
+aside h4 {
+    text-decoration: underline;
+}
+
+aside h4:hover {
+    cursor: pointer;
+}
+
+
+/* Start of the footer */
+
+#share {
+    clear: both;
+    background-color: #8A9FAD;
+    padding: 0;
+    text-align: center;
+}
+
+#share i {
+    font-size: 2rem;
+    padding: 0;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+}
+
+
+/* End of social footer */
+
+footer {
+    background-color: #6991AC;
+    width: 100%;
+}
+
+.social {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+}
+
+.social i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 2% 5% 2% 4%;
+    color: #C3D7DF;
+}
+
+.social i:hover {
+    color: #f5f5f5;
+}
+
+
+/* End of social footer */
