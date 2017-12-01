@@ -1,8 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sahilsharma
- */
 
 $conn = mysqli_connect("localhost", "root", "", "quora");
 if (mysqli_connect_errno()) {

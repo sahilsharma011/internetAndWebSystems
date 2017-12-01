@@ -1,7 +1,3 @@
-/**
- * Created by PhpStorm.
- * User: sahilsharma
- */
 function initMap() {
     var myLatLng = {lat: 28.6139, lng: 77.2090};
 
@@ -132,7 +128,7 @@ $(document).on('click','#all',function () {
 
 $(document).on('click','.topicFilter',function (e) {
     var topic_id = this.id;
-    $('section#answer-section:not([data-topic="'+topic_id+'"])').hide()
+    $('section#answer-sectionkey: "value", not([data-topic="'+topic_id+'"])').hide()
     $('section#answer-section[data-topic="'+topic_id+'"]').show()
 });
 
