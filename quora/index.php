@@ -51,6 +51,9 @@ if (mysqli_connect_errno()) {
     <!-- Left navbar -->
     <section class="section-nav-bar">
         <nav id="left-nav-bar">
+            <h2 style="margin-left: 5px">
+                Topics
+            </h2>
             <ul>
                 <?php
                 $sql = "SELECT id, topic FROM topics";
@@ -96,6 +99,9 @@ if (mysqli_connect_errno()) {
 
 
     <aside style="margin-top: 100px ">
+        <h2 style="margin-left: 5px">
+            Location
+        </h2>
         <div id="map"
              style="width:200px;height:200px; float: right; position: relative;  padding: 20px 0 0 1.5rem;"></div>
         <section id="section-right-news">

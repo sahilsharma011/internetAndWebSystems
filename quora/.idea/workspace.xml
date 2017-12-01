@@ -25,14 +25,14 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2034">
-              <caret line="108" column="120" lean-forward="false" selection-start-line="108" selection-start-column="120" selection-end-line="108" selection-end-column="120" />
+            <state relative-caret-position="1962">
+              <caret line="114" column="120" lean-forward="false" selection-start-line="114" selection-start-column="120" selection-end-line="114" selection-end-column="120" />
               <folding>
-                <marker date="1512117257148" expanded="true" signature="1777:1805" ph="SELECT id, t... topics" />
-                <marker date="1512117257148" expanded="true" signature="2379:2402" ph="SELECT * FRO... questions" />
-                <marker date="1512117257148" expanded="true" signature="2710:2866" ph="..." />
-                <marker date="1512117257148" expanded="true" signature="2719:2856" ph="..." />
-                <marker date="1512117257148" expanded="true" signature="3264:3303" ph="SELECT DISTI... questions" />
+                <marker date="1512117831544" expanded="true" signature="1860:1888" ph="SELECT id, t... topics" />
+                <marker date="1512117831544" expanded="true" signature="2462:2485" ph="SELECT * FRO... questions" />
+                <marker date="1512117831544" expanded="true" signature="2793:2949" ph="..." />
+                <marker date="1512117831544" expanded="true" signature="2802:2939" ph="..." />
+                <marker date="1512117831544" expanded="true" signature="3420:3459" ph="SELECT DISTI... questions" />
               </folding>
             </state>
           </provider>
@@ -157,12 +157,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512115514598</updated>
-      <workItem from="1512115516572" duration="2089000" />
+      <workItem from="1512115516572" duration="2324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2089000" />
+    <option name="totallyTimeSpent" value="2324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -218,14 +218,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="108" column="120" lean-forward="false" selection-start-line="108" selection-start-column="120" selection-end-line="108" selection-end-column="120" />
+        <state relative-caret-position="1962">
+          <caret line="114" column="120" lean-forward="false" selection-start-line="114" selection-start-column="120" selection-end-line="114" selection-end-column="120" />
           <folding>
-            <marker date="1512117257148" expanded="true" signature="1777:1805" ph="SELECT id, t... topics" />
-            <marker date="1512117257148" expanded="true" signature="2379:2402" ph="SELECT * FRO... questions" />
-            <marker date="1512117257148" expanded="true" signature="2710:2866" ph="..." />
-            <marker date="1512117257148" expanded="true" signature="2719:2856" ph="..." />
-            <marker date="1512117257148" expanded="true" signature="3264:3303" ph="SELECT DISTI... questions" />
+            <marker date="1512117831544" expanded="true" signature="1860:1888" ph="SELECT id, t... topics" />
+            <marker date="1512117831544" expanded="true" signature="2462:2485" ph="SELECT * FRO... questions" />
+            <marker date="1512117831544" expanded="true" signature="2793:2949" ph="..." />
+            <marker date="1512117831544" expanded="true" signature="2802:2939" ph="..." />
+            <marker date="1512117831544" expanded="true" signature="3420:3459" ph="SELECT DISTI... questions" />
           </folding>
         </state>
       </provider>
