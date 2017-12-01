@@ -128,7 +128,7 @@ $(document).on('click','#all',function () {
 
 $(document).on('click','.topicFilter',function (e) {
     var topic_id = this.id;
-    $('section#answer-sectionkey: "value", not([data-topic="'+topic_id+'"])').hide()
+    $('section#answer-section:not([data-topic="'+topic_id+'"])').hide()
     $('section#answer-section[data-topic="'+topic_id+'"]').show()
 });
 
