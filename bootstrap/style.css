@@ -1,0 +1,51 @@
+body {
+	padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+
+.blue{
+	background-color: #2874F0 !important;
+}
+.yellow{
+	background-color: #F6E42D;
+	border-color: #F6E42D;
+}
+
+
+table {
+	margin-left: 10px;
+	width: 97%;
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+
+td {
+	width: 300px;
+	
+	font-size: 15px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 15.4px;
+	text-align: center;
+	padding: 7px;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #F6E42D;
+	color: blue;
+	text-align: center;
+	font-variant: small-caps;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+	background-color: #F6E42D;
+}
