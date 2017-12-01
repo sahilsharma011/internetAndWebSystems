@@ -2,32 +2,6 @@
  * Created by PhpStorm.
  * User: sahilsharma
  */
-$(document).ready(function() {
-  
-  $(".collapse-button").click(function() {
-    $(this).parent().slideUp("slow");
-  })
-})
-
-
-function filterPostByTag(t) {
-
-  
-  $(".show").show("slow");
-  $(".post:not(." + t + ")").toggle();
-}
-
-
-function clearBox()
-{
-    $(".show").hide();
-}
-
-
-function filterShowAll() {
-  $(".post").show();
-}
-
 function initMap() {
     var myLatLng = {lat: 28.6139, lng: 77.2090};
 
@@ -88,7 +62,6 @@ function initMap() {
 
     google.maps.event.addListener(marker,'click',function() {
         selected = marker.getTitle();
-        clearBox();
         locationFilter(selected);
 
 
@@ -96,7 +69,6 @@ function initMap() {
 
     google.maps.event.addListener(marker2,'click',function() {
         selected = marker2.getTitle();
-        clearBox();
         locationFilter(selected);
 
 
@@ -104,7 +76,6 @@ function initMap() {
 
     google.maps.event.addListener(marker3,'click',function() {
         selected = marker3.getTitle();
-        clearBox();
         locationFilter(selected);
 
 
@@ -113,7 +84,6 @@ function initMap() {
 
     google.maps.event.addListener(marker4,'click',function() {
         selected = marker4.getTitle();
-        clearBox();
         locationFilter(selected);
 
     });
@@ -121,14 +91,12 @@ function initMap() {
 
     google.maps.event.addListener(marker5,'click',function() {
         selected = marker5.getTitle();
-        clearBox();
         locationFilter(selected);
 
     });
 
     google.maps.event.addListener(marker1,'click',function() {
         selected = marker1.getTitle();
-        clearBox();
         locationFilter(selected);
 
 
@@ -144,11 +112,11 @@ $(document).on('click','#bookmark',function () {
 
             data = JSON.parse(data);
             var html = '';
-            data.forEach(function (element) {
-                html = html + '<section id="answer-section" data-location="'+element[4]+'" data-topic="'+element[5]+'"><article>'
-                    +'<h3>'+element[1]+'</h3>'
+            data.forEach(function (question) {
+                html = html + '<section id="answer-section" data-location="'+question[4]+'" data-topic="'+question[5]+'"><article>'
+                    +'<h3>'+question[1]+'</h3>'
 
-                    +'<p>'+element[2]+'</p>'
+                    +'<p>'+question[2]+'</p>'
                     +'</article></section>'
             })
             $('#show_bookmarks').show().html(html);

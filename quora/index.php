@@ -58,7 +58,6 @@ if (mysqli_connect_errno()) {
                 <?php
                 $sql = "SELECT id, topic FROM topics";
                 $result = $conn->query($sql);
-
                 if ($result->num_rows > 0) {
                     // output data of each row
                     while ($row = $result->fetch_assoc()) {
